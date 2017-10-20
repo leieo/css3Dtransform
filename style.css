@@ -1,0 +1,48 @@
+* {
+	margin: 0; 
+	padding: 0;
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 30vh;
+	}
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+
+
+.square {
+	height: 30vh;
+	width: 30vh;
+	margin-top: 2vh;
+}
+
+.multicontainer {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding-top: 30vh;
+	}
+
+
+.transform {
+	-webkit-transform: perspective( 600px ) rotateX( 45deg );
+	        transform: perspective( 600px ) rotateX( 45deg );
+}
+
+.pers {
+	-webkit-perspective: 600px;
+	        perspective: 600px;
+}
+
+.trans {
+	-webkit-transform: rotateY( 45deg );
+	        transform: rotateY( 45deg );
+}
